@@ -1,10 +1,14 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center">
+  <img src="https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/36115/LhaTWPeShEuD4FqT.png" alt="Foto de perfil" width="150" />
+</p>
+
+<h1 align="center">Proyecto Laravel 11.4</h1>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://img.shields.io/badge/PHP-8.2.12-blue?style=flat-square&logo=php" alt="PHP 8.2.12" />
+  <img src="https://img.shields.io/badge/Composer-2.5.1-blue?style=flat-square&logo=composer" alt="Composer 2.5.1" />
+  <img src="https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql" alt="MySQL 8.0" />
+  <img src="https://img.shields.io/badge/Laravel-11.4-blue?style=flat-square&logo=laravel" alt="Laravel 11.4" />
 </p>
 
 # Actividad 2
