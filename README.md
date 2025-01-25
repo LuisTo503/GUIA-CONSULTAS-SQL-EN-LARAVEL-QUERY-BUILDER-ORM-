@@ -24,9 +24,11 @@ Laravel para realizar consultas SQL a una base de datos.
 - MySQL
 - Laravel 11.4
 
-### En base a este diagrama Entidad-Relación se deberá crear la base de datos y las migraciones tomando en cuenta el nombre y los campos de cada tabla. 
+#### En base a este diagrama Entidad-Relación se deberá crear la base de datos y las migraciones tomando en cuenta el nombre y los campos de cada tabla. 
   ![grafico](https://github.com/user-attachments/assets/7d2be29f-450c-48f8-97ff-b046ad1acb22)
+#### Diagrama ER  
   ![entidad-relacion](https://github.com/user-attachments/assets/9ebf217b-9eab-494d-976c-d16d95cea249)
+#### Diagrama de Routas  
   ![Query](https://github.com/user-attachments/assets/c32f2d30-96c2-43ca-9e25-544388f2a034)
 
 
