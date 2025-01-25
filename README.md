@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">Proyecto Laravel 11.4</h1>
+<h1 align="center">Proyecto Laravel 11.4 Query Builder y ORM</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-8.2.12-blue?style=flat-square&logo=php" alt="PHP 8.2.12" />
