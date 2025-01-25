@@ -89,7 +89,11 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 ### Rutas disponibles
 
 - `GET /usuarios`: Listar todos los usuarios.
+![usuarios](https://github.com/user-attachments/assets/6f42036d-ad53-400b-a25e-c3b22ab4fcef)
+
 - `GET /pedidos-usuario-2`: Recuperar todos los pedidos asociados al usuario con ID 2.
+- ![pedidos-usuario-2](https://github.com/user-attachments/assets/4beac1d6-c0d0-4dc6-9d22-d390a8ac4c75)
+
 - `GET /pedidos-con-usuarios`: Obtener la información detallada de los pedidos, incluyendo el nombre y correo electrónico de los usuarios.
 - `GET /pedidos-en-rango`: Recuperar todos los pedidos cuyo total esté en el rango de $100 a $250.
 - `GET /usuarios-con-r`: Encontrar todos los usuarios cuyos nombres comiencen con la letra "R".
