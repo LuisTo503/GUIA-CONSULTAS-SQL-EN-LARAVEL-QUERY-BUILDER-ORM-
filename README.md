@@ -8,9 +8,9 @@
 </p>
 
 # Actividad 2
-### Coach: Kenia Paíz
-### Estudiante: Luis Rolando Tobar Moreno
-### FSJ24-A
+#### Coach: Kenia Paíz
+#### Estudiante: Luis Rolando Tobar Moreno
+#### FSJ24-A
 
 ## Proyecto Laravel Query Builder y ORM
 
