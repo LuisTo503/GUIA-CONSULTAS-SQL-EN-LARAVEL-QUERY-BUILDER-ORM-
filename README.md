@@ -24,6 +24,10 @@ Laravel para realizar consultas SQL a una base de datos.
 - MySQL
 - Laravel 11.4
 
+### En base a este diagrama deberás crear la base de datos y las migraciones tomando en cuenta el nombre y los campos de cada tabla. 
+  ![grafico](https://github.com/user-attachments/assets/7d2be29f-450c-48f8-97ff-b046ad1acb22)
+
+
 ## Instalación
 
 Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
