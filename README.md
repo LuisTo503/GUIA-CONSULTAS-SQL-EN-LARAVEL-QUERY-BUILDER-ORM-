@@ -7,60 +7,95 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# Actividad 2
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Proyecto Laravel Query Builder y ORM
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+El objetivo de esta actividad es adquirir un dominio completo en el uso de Query Builder y ORM en 
+Laravel para realizar consultas SQL a una base de datos. 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Requisitos
 
-## Learning Laravel
+- PHP 8.2.12
+- Composer
+- MySQL
+- Laravel 11.4
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Instalación
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Clona el repositorio:
 
-## Laravel Sponsors
+    ```sh
+    git clone https://github.com/tu-usuario/tu-repositorio.git
+    cd tu-repositorio
+    ```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+2. Instala las dependencias de Composer:
 
-### Premium Partners
+    ```sh
+    composer install
+    ```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+3. Copia el archivo de entorno de ejemplo y configura tu base de datos:
 
-## Contributing
+    ```sh
+    cp .env.example .env
+    ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+    Edita el archivo `.env` y configura los detalles de tu base de datos:
 
-## Code of Conduct
+    ```env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=queryB
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+4. Genera la clave de la aplicación:
 
-## Security Vulnerabilities
+    ```sh
+    php artisan key:generate
+    ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+5. Ejecuta las migraciones para crear las tablas en la base de datos:
 
-## License
+    ```sh
+    php artisan migrate
+    ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+6. Ejecuta los seeders para insertar datos de ejemplo en las tablas:
+
+    ```sh
+    php artisan db:seed
+    ```
+
+7. Inicia el servidor de desarrollo de Laravel:
+
+    ```sh
+    php artisan serve
+    ```
+
+    La aplicación estará disponible en `http://localhost:8000`.
+
+## Uso
+
+### Rutas disponibles
+
+- `GET /usuarios`: Listar todos los usuarios.
+- `GET /pedidos-usuario-2`: Recuperar todos los pedidos asociados al usuario con ID 2.
+- `GET /pedidos-con-usuarios`: Obtener la información detallada de los pedidos, incluyendo el nombre y correo electrónico de los usuarios.
+- `GET /pedidos-en-rango`: Recuperar todos los pedidos cuyo total esté en el rango de $100 a $250.
+- `GET /usuarios-con-r`: Encontrar todos los usuarios cuyos nombres comiencen con la letra "R".
+- `GET /total-pedidos-usuario-5`: Calcular el total de registros en la tabla de pedidos para el usuario con ID 5.
+- `GET /pedidos-ordenados`: Recuperar todos los pedidos junto con la información de los usuarios, ordenándolos de forma descendente según el total del pedido.
+- `GET /suma-total-pedidos`: Obtener la suma total del campo "total" en la tabla de pedidos.
+- `GET /pedido-mas-economico`: Encontrar el pedido más económico, junto con el nombre del usuario asociado.
+- `GET /pedidos-agrupados-por-usuario`: Obtener el producto, la cantidad y el total de cada pedido, agrupándolos por usuario.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un issue o envía un pull request.
