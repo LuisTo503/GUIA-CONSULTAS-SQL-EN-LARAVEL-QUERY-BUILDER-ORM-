@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/36115/LhaTWPeShEuD4FqT.png" alt="Foto de perfil" width="150" />
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" alt="Laravel Logo" width="400" />
+  </a>
 </p>
 
 <h1 align="center">Proyecto Laravel 11.4</h1>
