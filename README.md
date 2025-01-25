@@ -95,13 +95,29 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 - ![pedidos-usuario-2](https://github.com/user-attachments/assets/4beac1d6-c0d0-4dc6-9d22-d390a8ac4c75)
 
 - `GET /pedidos-con-usuarios`: Obtener la información detallada de los pedidos, incluyendo el nombre y correo electrónico de los usuarios.
+- <img width="575" alt="pedidos-con-usuarios" src="https://github.com/user-attachments/assets/85d64e2d-7ae6-4546-8c7d-a3718438d595" />
+
 - `GET /pedidos-en-rango`: Recuperar todos los pedidos cuyo total esté en el rango de $100 a $250.
+- <img width="575" alt="pedidos-en-rango" src="https://github.com/user-attachments/assets/32c17daa-e247-48e3-98bb-7a7ed7df95b6" />
+
 - `GET /usuarios-con-r`: Encontrar todos los usuarios cuyos nombres comiencen con la letra "R".
+- <img width="575" alt="usuarios-con-r" src="https://github.com/user-attachments/assets/fb92fc68-f6f2-4932-964f-6d25a614f6d2" />
+
 - `GET /total-pedidos-usuario-5`: Calcular el total de registros en la tabla de pedidos para el usuario con ID 5.
+- <img width="575" alt="total-pedidos-usuario-5" src="https://github.com/user-attachments/assets/42a2b5e0-4aae-4dc2-b35e-9dddf56ebf84" />
+
 - `GET /pedidos-ordenados`: Recuperar todos los pedidos junto con la información de los usuarios, ordenándolos de forma descendente según el total del pedido.
+- <img width="575" alt="pedidos-ordenados" src="https://github.com/user-attachments/assets/9690c085-5648-4b75-9fe9-6b29138ec6ea" />
+
 - `GET /suma-total-pedidos`: Obtener la suma total del campo "total" en la tabla de pedidos.
+- <img width="575" alt="suma-total-pedidos" src="https://github.com/user-attachments/assets/5359fbd7-8eb7-412f-b0eb-8d3637313d9e" />
+
 - `GET /pedido-mas-economico`: Encontrar el pedido más económico, junto con el nombre del usuario asociado.
+- <img width="575" alt="pedidos-mas-economico" src="https://github.com/user-attachments/assets/751c0ad0-0d21-4549-8e75-f49abd90d123" />
+
 - `GET /pedidos-agrupados-por-usuario`: Obtener el producto, la cantidad y el total de cada pedido, agrupándolos por usuario.
+- <img width="575" alt="pedidos-agrupados-por-usuario" src="https://github.com/user-attachments/assets/ef17390e-c828-4480-815d-434cf8e029f6" />
+
 
 ## Contribuciones
 
